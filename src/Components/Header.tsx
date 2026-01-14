@@ -11,7 +11,7 @@ const Header = () => {
     <header className="bg-white shadow-sm sticky z-50 top-0">
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
         <a href="/">
-          <h1 className="text-2xl font-serif font-bold text-pink-600">
+          <h1 className="text-l lg:text-2xl font-serif font-bold text-pink-600">
             Mada Sweet Cakes
           </h1>
         </a>
