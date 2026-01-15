@@ -15,7 +15,7 @@ const Gallery = () => {
             <img
               src={cake.src}
               alt={cake.alt}
-              className="max-h-60 h-60 w-60 rounded-2xl object-center"
+              className="max-h-50 h-50 w-50 rounded-2xl object-cover"
             />
           </div>
         ))}
