@@ -6,12 +6,7 @@ A modern, responsive bakery website built with React to showcase bespoke cakes, 
 
 ## Built With
 
-<img src="https://img.shields.io/badge/React-20232A"/>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E"/>
-<img src="https://img.shields.io/badge/TypeScript-3178C6"/>
-<img src="https://img.shields.io/badge/TailwindCSS-06B6D4"/>
-<img src="https://img.shields.io/badge/Responsive-Design-success"/>
-<img src="https://img.shields.io/badge/Portfolio-Project-blue"/>
+<img src="https://img.shields.io/badge/React-20232A"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E"/> <img src="https://img.shields.io/badge/TypeScript-3178C6"/> <img src="https://img.shields.io/badge/TailwindCSS-06B6D4"/> <img src="https://img.shields.io/badge/Responsive-Design-success"/> <img src="https://img.shields.io/badge/Portfolio-Project-blue"/>
 
 ## Features
 
