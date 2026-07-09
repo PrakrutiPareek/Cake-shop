@@ -12,7 +12,7 @@ const Header = () => {
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
         <a href="/">
           <h1 className="text-l lg:text-2xl font-serif font-bold text-pink-600">
-            Mada Sweet Cakes
+            The Cake Studio
           </h1>
         </a>
 
@@ -43,17 +43,15 @@ const Header = () => {
 
         <div className="flex space-x-3 text-2xl md:text-3xl lg:text-4xl">
           <a
-            href="https://www.instagram.com/madasweetcakes/"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="#"
+            onClick={(e) => e.preventDefault()}
             className="text-pink-600"
           >
             <FontAwesomeIcon icon={faInstagram} />
           </a>
           <a
-            href="https://www.facebook.com/MadaSweetCakes120"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="#"
+            onClick={(e) => e.preventDefault()}
             className="text-blue-500"
           >
             <FontAwesomeIcon icon={faFacebook} />
