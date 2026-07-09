@@ -1,30 +1,30 @@
 const reviews = [
   {
     id: 1,
-    name: "Alexandra Giorgiana",
+    name: "Emma R.",
     comment:
-      "You keep surprising us for years! Everything at its best! Both the cakes and the cakes! Thank you for everything 🥰 ! I highly recommend you! ❤️",
+      "The cake looked absolutely beautiful and tasted even better! It was the highlight of our celebration.",
     rating: 5,
   },
   {
     id: 2,
-    name: "Euromix Deli Chelmsford",
+    name: "Sophie L.",
     comment:
-      "The cakes were absolutely delicious,fresh, soft and full of flavour. Beautifully made and impossible to resist. One of the best homemade desserts I’ve tried❤️",
+      "The cakes were absolutely delicious,fresh, soft and full of flavour. Beautifully made and impossible to resist.",
     rating: 5,
   },
   {
     id: 3,
-    name: "Gb Găbiţa",
+    name: "James T.",
     comment:
-      "The best in what you do and you can see that you do it with love!! Art and passion in one word, wonderful! The most beautiful treats!! ❤️🌹🙏🥂🎉🍰",
+      "A stunning custom cake that exceeded our expectations. Beautifully decorated and full of flavour!",
     rating: 4,
   },
   {
     id: 4,
-    name: "Cornelia Irimia",
+    name: "Olivia M.",
     comment:
-      "Absolutely amazing cakes! Everything looks and tastes incredible. You can really tell how much love, creativity, and imagination she puts into every detail. Each cake is unique and full of personality. Highly recommend for anyone looking for delicious homemade cakes and beautiful designs! 🎂💕",
+      "The cupcakes were fresh, delicious, and exactly what we had imagined. We'll definitely order again for future celebrations.",
     rating: 5,
   },
 ];
