@@ -1,73 +1,106 @@
-# React + TypeScript + Vite
+# The Cake Studio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive bakery website built with React to showcase bespoke cakes, cupcakes, cookies, and dessert platters. This project demonstrates front-end development skills through a clean, user-friendly interface and responsive design.
 
-Currently, two official plugins are available:
+> **Note:** This is a portfolio project. All branding, content, images, contact details, and testimonials are fictional and created for demonstration purposes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Built With
 
-## React Compiler
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
+<img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
+<img src="https://img.shields.io/badge/Responsive-Design-success"/>
+<img src="https://img.shields.io/badge/Portfolio-Project-blue"/>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+- Responsive design for desktop, tablet, and mobile devices
+- Modern and clean user interface
+- Hero section with call-to-action
+- About section
+- Product showcase
+- Customer testimonials
+- Contact information
+- Smooth scrolling navigation
+- Reusable React components
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Preview
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+![alt Gallery](/public/Images/Screenshot-gallery.png)
+![alt About](/public/Images/Screenshot-about.png)
+![alt Reviews](/public/Images/Screenshot-reviews.png)
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## Live demo
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+The Cake Studio: https://cake-shop-smoky.vercel.app
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js
+- npm
+
+### Installation
+
+```bash
+git clone https://github.com/PrakrutiPareek/Cake-shop
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+cd Cake-shop
 ```
+
+```bash
+npm install
+```
+
+```bash
+npm run dev
+```
+
+Open the local development server URL displayed in your terminal.
+
+## Project Structure
+
+```text
+src/
+├── assets/
+├── components/
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+## What I Learned
+
+Through this project I strengthened my understanding of:
+
+- Building reusable React components
+- Creating responsive layouts
+- Structuring a single-page application
+- Managing assets and project structure
+- Designing clean and accessible user interfaces
+
+## Future Improvements
+
+- Online enquiry form
+- Product filtering by category
+- Image gallery with lightbox
+- Online ordering functionality
+- Admin dashboard for managing products
+- Dark mode
+- Accessibility improvements
+- Performance optimization
+
+## Disclaimer
+
+This project was originally inspired by a bespoke cake business website. The version available in this repository has been fully anonymized and uses fictional branding, content, contact details, and testimonials to respect client confidentiality.
+
+## 👩‍💻 Author
+
+**Prakruti Pareek**
+
+- GitHub: https://github.com/PrakrutiPareek
+- LinkedIn: https://www.linkedin.com/in/prakruti-pareek
