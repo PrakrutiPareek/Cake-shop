@@ -93,7 +93,7 @@ Through this project I strengthened my understanding of:
 
 This project was originally inspired by a bespoke cake business website. The version available in this repository has been fully anonymized and uses fictional branding, content, contact details, and testimonials to respect client confidentiality.
 
-## 👩‍💻 Author
+## Author
 
 **Prakruti Pareek**
 
